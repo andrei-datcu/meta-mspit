@@ -11,8 +11,6 @@ S = "${WORKDIR}"
 do_install() {
         install -d ${D}/www/pages/
         cp  git/* ${D}/www/pages/
-	touch /dev/xmas
-	echo "*--**--**--*" > /home/root/pattern
 }
 
 FILES_${PN} += "\
